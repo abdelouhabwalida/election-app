@@ -21,7 +21,7 @@ Cette application gère le traitement des votes et identifie les principaux cand
    La liste des trois premiers candidats est accessible via l'adresse web suivante http://localhost:8080/api/election/top-candidates
    La liste des messages de fraudes est accessible via l'adresse web suivante http://localhost:8080/api/election/fraud-list 
 
-## utilisation
+## Utilisation
 
 Une fois l'application démarrée, elle effectuera automatiquement le traitement des votes et affichera les résultats sur la console. Les trois principaux candidats et les messages de fraude seront affichés.
 Si vous souhaitez personnaliser le fichier de votes, assurez-vous de le placer dans le répertoire approprié et de configurer le chemin dans le fichier de configuration.
