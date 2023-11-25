@@ -31,6 +31,7 @@ public class ElectionAppApplication implements CommandLineRunner {
             fraudMessage = electionHandler.displayFraudList();
 
             System.out.println(topCandidates);
+            if(!fraudMessage.isEmpty())
             System.out.println(fraudMessage);
         } catch (Exception e) {
             logger.error("Error running the application: " , e);
