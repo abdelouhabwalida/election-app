@@ -27,7 +27,7 @@ public class ElectionAppApplication implements CommandLineRunner {
         List<String> fraudMessage;
         try {
 
-            topCandidates = electionHandler.processVotes();
+            topCandidates = electionHandler.processElection();
             fraudMessage = electionHandler.displayFraudList();
 
             System.out.println(topCandidates);

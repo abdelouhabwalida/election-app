@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface ElectionHandler {
 
-    List<String> processVotes();
+    List<String> processElection();
 
     List<String> displayFraudList();
 }

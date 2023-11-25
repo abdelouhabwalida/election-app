@@ -16,7 +16,7 @@ public class ElectionController {
 
     @GetMapping("/top-candidates")
     public List<String> getTopCandidates() {
-        return electionHandler.processVotes();
+        return electionHandler.processElection();
     }
 
     @GetMapping("/fraud-list")

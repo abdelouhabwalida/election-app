@@ -39,7 +39,7 @@ public class ElectionHandlerImpl implements ElectionHandler {
      * @return Une liste de chaînes représentant les principaux candidats avec leur nombre de votes
      */
     @Override
-    public List<String> processVotes() {
+    public List<String> processElection() {
 
         try {
             Map<String, Integer> voteCounts = new HashMap<>();
