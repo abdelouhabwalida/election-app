@@ -20,6 +20,8 @@ import java.util.stream.Collectors;
 /**
  * Implémentation de l'interface ElectionHandlerMetier
  * Cette classe traite les votes, détecte les fraudes et identifie les principaux candidats
+ * add comment for teste
+ 
  */
 
 @Service
