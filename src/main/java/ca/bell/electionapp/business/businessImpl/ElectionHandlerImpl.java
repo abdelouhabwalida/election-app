@@ -92,7 +92,7 @@ public class ElectionHandlerImpl implements ElectionHandler {
         String candidateId = voteData[1].trim();
 
         if (voterCounts.containsKey(voteId)) {
-            String fraudMessage = "Fraude détectée : Électeur " + voteId + "a voté plusieurs fois";
+            String fraudMessage = "Fraude détectée : Électeur " + voteId + " a voté plusieurs fois";
             fraudList.add(fraudMessage);
             return;
         }
