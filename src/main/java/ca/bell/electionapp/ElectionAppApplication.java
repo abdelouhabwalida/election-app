@@ -11,8 +11,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.List;
 
 /**
-
- * La classe principale de l'application Election App
+  
+ * cette version et la version 1 -**La classe principale de l'application Election App
  * Cette classe est annotée avec {@link SpringBootApplication} pour activer les fonctionnalités de Spring
  * Elle implémente également {@link CommandLineRunner} pour exécuter du code après le chargement du contexte de l'application  ttt
  */
