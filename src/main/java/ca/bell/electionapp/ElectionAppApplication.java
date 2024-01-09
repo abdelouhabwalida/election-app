@@ -9,7 +9,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.List;
-
+// ajouter des commentaires 
 @SpringBootApplication
 public class ElectionAppApplication implements CommandLineRunner {
     Logger logger = LoggerFactory.getLogger(getClass());
