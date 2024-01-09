@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.List;
 // ajouter des commentaires 
+// ajouter d'autres  commentaires 
 @SpringBootApplication
 public class ElectionAppApplication implements CommandLineRunner {
     Logger logger = LoggerFactory.getLogger(getClass());
