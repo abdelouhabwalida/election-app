@@ -20,6 +20,8 @@ import java.util.stream.Collectors;
 /**
  * Implémentation de l'interface ElectionHandlerMetier
  * Cette classe traite les votes, détecte les fraudes et identifie les principaux candidats
+ * add comment for teste
+ 
  */
 
 @Service
@@ -92,7 +94,7 @@ public class ElectionHandlerImpl implements ElectionHandler {
         String candidateId = voteData[1].trim();
 
         if (voterCounts.containsKey(voteId)) {
-            String fraudMessage = "Fraude détectée : Électeur " + voteId + "a voté plusieurs fois";
+            String fraudMessage = "Fraude détectée : Électeur " + voteId + " a voté plusieurs fois";
             fraudList.add(fraudMessage);
             return;
         }
