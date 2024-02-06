@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class VoteAppApplicationTests {
 
-	// ajouter un commentaire test
+	// ajouter un commentaire
 	@Test
 	void contextLoads() {
 	}
